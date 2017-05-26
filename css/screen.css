@@ -1,0 +1,312 @@
+nav {
+	position:fixed;
+	left: 20px;
+	top: 150px;width:260px;
+	border:1pt solid white;	background:black;
+
+}
+nav a {
+	display:block;
+/* 	margin-right:5px; */
+	padding: 5px; 
+	background-color: transparent; 
+	text-decoration:none; 
+	font: bold 100% georgia, sans-serif; 
+	border-right:1px solid white; 
+	border-bottom: 2px solid white;
+}
+nav a:hover{
+	background-color: rgb(40%,40%,40%); 
+	border-right:5px solid white;
+	padding-right: 5px;
+/* 	margin-right: 3px; */
+}
+nav p{color:#fff;}
+body {
+	background:#000;
+	background-image:url('../images/login-screen-background-mountain-lion-i4.png');
+	background-repeat:repeat-y;
+	background-size: 1920px 1080px;
+	color:white;
+	font-family: 100% georgia, sans-serif;
+	font-size: 12px;
+	margin: 0;
+}
+table table{
+	background-color:#999;
+	color:#000;
+	padding:10px;
+	text-align:center;
+	font-style: normal;
+}
+a{color:white;}
+td {
+	font-style: italic;
+}
+td {
+	font-family: "MS Serif", "New York", serif;
+}
+td {
+	font-style: normal;
+}
+th {
+	font-weight: bold;
+	font-family: "MS Serif", "New York", serif;
+}
+div#banner {
+	background-color:rgba(0,0,0,0.5);
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	text-align: center;
+	z-index:3;
+	border-bottom: 1pt solid white;
+	opacity: .6;
+}
+div#banner h1 {
+	font:bold 28px georgia, sans-serif;
+	letter-spacing:.15em; margin:40px 0; z-index:3;
+}
+div#banner img#logo {
+	float:left;margin:5px;
+	width: 252px;
+	height: 103px;
+	z-index:3;
+}
+
+div#contents {
+	position:absolute;
+	left: 290px;
+	top: 150px;
+	width: 800px;
+	height: 300px;
+	color: white;
+	font-family: sans-serif;
+	font-style: normal;
+	font-size: large;
+	
+}
+
+img#BIOPIC {
+float:left;margin:5px; padding:5px;background-color:black;
+}
+div#form {
+	top:150px;
+	position: fixed;
+	left:300px;
+	background-color: rgba(0,0,0,0.5);
+	width:700px;
+	height:350px;
+	font-family: sans-serif;
+	font-style: normal;
+	border: 3px inset white;
+	padding: 3px;
+	
+}
+#form {
+	top:150px;
+	position: fixed;
+	left:300px;
+	background-color: rgba(0,0,0,0.5);
+	width:700px;
+	height:350px;
+	font-family: sans-serif;
+	font-style: normal;
+	border: 3px inset white;
+	padding: 3px;
+	font-size: larger;
+	
+}
+#loginform {
+	position: relative;
+	margin: 200px auto 100px;
+	background-color: rgba(0,0,0,0.5);
+	width:300px;
+	height:125px;
+	font-family: sans-serif;
+	font-style: normal;
+	border: 3px inset white;
+	padding: 3px;
+	font-size: larger;
+	color: white;
+}
+div#genderDIV {
+	width: 150px;
+}
+#housenumber {
+	width: 40px;
+}
+#loginButton{
+	position: absolute;
+	left:125px;
+	top:100px;
+	color: #ffffff;
+	background-color: #1f282b;
+	border-color: white;
+	outline: 0;
+	-webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,0.125);
+	box-shadow: inset 0 3px 5px rgba(0,0,0,0.125);
+	padding: 1px 5px;
+	font-size: 12px;
+	line-height: 1.5;
+	border-radius: 3px;
+	border: 1px solid white;
+}
+#loginButton:hover{
+	background-color: #35464d;
+}
+
+#contactinfo{
+	position: absolute;
+	left:55px;
+	top:175px;
+	height: 125px;
+	width: 250px;
+}
+#social_media {
+	width: 55px;
+	height: 25px;
+	margin: 15px auto 0;
+}
+.social_icon{
+	height: 25px;
+	width: 25px;
+	margin-right: 5px;
+	float: left;
+}
+#contactinfoGlobal img {
+	max-width: 100%;
+	max-height: 100%;
+}
+.social_icon:last-child {
+	margin-right: 0;
+}
+#contactinfoGlobal{
+	height: 75px;
+	width: 250px;
+	font-family: 100% georgia, sans-serif;
+	font-size: 12px;
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-size: 18px;
+	opacity: .6;
+	position: relative;
+}
+#container {
+	width: 85%;	
+	color: black;
+	margin: 134px auto 0;	
+}
+#filler_text {
+	/* background-color: #074f6f; */
+	width: 100%;
+	height: 500px;
+	margin-bottom: 20px;
+	color:white;
+	opacity: .5;
+	border-radius: 1%;
+	border-color: #074f6f;
+	font-size: 15pt;
+}
+#create_poll{
+	color: white;
+	position: relative;
+	margin-left: 10%;
+	margin-top: 20%;
+	margin-bottom: 50%;
+	font-size: 15pt;
+	text-decoration: !important;
+}
+
+#buttonHomeVIEW{
+	position: absolute;
+	left:45%;
+	top:50%;
+	color: #ffffff;
+	background-color: #1f282b;
+	border-color: white;
+	outline: 0;
+	-webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,0.125);
+	box-shadow: inset 0 3px 5px rgba(0,0,0,0.125);
+	padding: 1px 5px;
+	font-size: 12px;
+	line-height: 1.5;
+	border-radius: 3px;
+	border: 1px solid white;
+	text-decoration: none;
+}
+
+div#buttonHomeCREATE{
+	position: absolute;
+	left:20%;
+	top:50%;
+	color: #ffffff;
+	background-color: #1f282b;
+	border-color: white;
+	outline: 0;
+	-webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,0.125);
+	box-shadow: inset 0 3px 5px rgba(0,0,0,0.125);
+	padding: 1px 5px;
+	font-size: 12px;
+	line-height: 1.5;
+	border-radius: 3px;
+	border: 1px solid white;
+	text-align: center;
+	text-decoration: none;
+}
+
+#buttonHomeVOTE{
+	position: absolute;
+	left:70%;
+	top:50%;
+	color: #ffffff;
+	background-color: #1f282b;
+	border-color: white;
+	outline: 0;
+	-webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,0.125);
+	box-shadow: inset 0 3px 5px rgba(0,0,0,0.125);
+	padding: 1px 5px;
+	font-size: 12px;
+	line-height: 1.5;
+	border-radius: 3px;
+	border: 1px solid white;
+	text-decoration: none;
+}
+
+#signuptext{
+	color:white;
+	position: relative;
+	opacity: .5;
+	top:50%;
+}
+#filler_textHOME {
+	/* background-color: #074f6f; */
+	width: 100%;
+	height: 500px;
+	margin-bottom: 20px;
+	color:black;
+	font-size: 15pt;
+}
+div#votebanner{
+	position: relative;
+    margin: auto;
+}
+
+.buttonStyleClass
+{
+    background-color: #5a7170; 
+    border-radius: 10px;
+    height: 40px;
+    width: 150px;
+}
+#createPollButton
+{
+    
+}
+#voteResultsButton
+{
+    
+}
+
